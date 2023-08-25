@@ -1,0 +1,171 @@
+*{
+margin: 0px;
+padding:0px;
+
+}
+
+
+#table{
+ 
+display: grid;
+grid-template-columns: repeat(4,200px);
+text-align: center;
+grid-template-areas: 
+
+"header header header header"
+"sub1 main sub3 sub2"
+"footer footer footer footer"
+;
+
+
+}
+
+
+.header{
+
+    grid-area: header;
+    color: blue;
+    
+}
+
+.sub1{
+
+grid-area: sub1;
+
+}
+
+.main{
+
+ grid-area: main;
+
+}
+
+.sub2{
+
+grid-area: sub2;
+
+}
+
+
+.footer{
+
+
+    grid-area: footer;
+}
+
+.sub3{
+
+grid-area: sub3;
+
+}
+
+
+#box{
+
+border: 1px solid black;
+
+
+
+}
+
+#newtable{
+
+    margin-top: 300px;
+
+
+display: grid;
+grid-template-columns: repeat(4,200px);
+
+text-align: center;
+grid-template-areas: "fruits fruits fruits fruits"
+
+"apple orangee mango guava"
+"vegetable vegetable vegetable vegetable"
+"raddish   beetroot beetroot carrot "
+"vegg vegg vege vege "
+
+;
+
+}
+
+
+
+#order{
+
+    border: 1px solid black;
+    
+}
+.fuits{
+
+grid-area: fruits;
+color: aqua;
+
+}
+
+
+.apple{
+
+    grid-area: apple;
+
+color: blue;
+
+    
+    }
+
+.orange{
+
+    grid-area:orangee;
+    
+    }
+
+
+.mango{
+
+    grid-area:mango;
+    
+    }
+
+.guava{
+
+    grid-area: guava;
+    
+    }
+
+    .vegetable{
+
+        grid-area: vegetable;
+        
+        }   
+
+.raddish{
+
+    grid-area: raddish;
+    
+    }
+
+
+.beetroot{
+
+    grid-area: beetroot;
+    
+    }
+
+.carrot{
+
+    grid-area: carrot;
+    
+    }
+
+
+
+.veg1{
+
+    grid-area: vegg;
+    
+    }
+
+.veg2{
+
+    grid-area: vege;
+    
+    }
